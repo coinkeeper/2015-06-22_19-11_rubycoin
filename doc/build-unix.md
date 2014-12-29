@@ -14,8 +14,9 @@ UNIX BUILD NOTES
 To Build
 --------
 
-cd src/
-make -f makefile.unix            # Headless rubycoin
+cd src
+
+make -f makefile.unix
 
 See readme-qt.rst for instructions on building Rubycoin QT,
 the graphical Rubycoin.
@@ -75,8 +76,11 @@ emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
  cd ${RUBYCOIN_DIR}/src
+ 
  make -f makefile.unix USE_UPNP=
+ 
  strip rubycoind
+ 
 
 
 Notes
@@ -88,10 +92,15 @@ symbols, which reduces the executable size by about 90%.
 miniupnpc
 ---------
 tar -xzvf miniupnpc-1.6.tar.gz
+
 cd miniupnpc-1.6
+
 make
+
 sudo su
+
 make install
+
 
 
 Berkeley DB
@@ -105,8 +114,11 @@ Boost
 -----
 If you need to build Boost yourself:
 sudo su
+
 ./bootstrap.sh
+
 ./bjam install
+
 
 
 Security
