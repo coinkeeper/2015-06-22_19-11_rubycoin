@@ -1,4 +1,5 @@
 Copyright (c) 2009-2012 Bitcoin Developers
+
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -61,11 +62,8 @@ Versions used in this release:
 
 Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
-sudo apt-get install build-essential
-sudo apt-get install libssl-dev
-sudo apt-get install libdb++-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install libqrencode-dev
+sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev
+
 
 If using Boost 1.37, append -mt to the boost libraries in the makefile.
 
@@ -76,7 +74,7 @@ Dependency Build Instructions: Gentoo
 emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
- cd ${BLACKCOIN_DIR}/src
+ cd ${RUBYCOIN_DIR}/src
  make -f makefile.unix USE_UPNP=
  strip rubycoind
 
