@@ -1,4 +1,5 @@
 Copyright (c) 2009-2012 Bitcoin Developers
+
 Copyright (c) 2014-2015 Rubycoin Developers
 
 See readme-qt.rst for instructions on building Rubycoin QT, the
