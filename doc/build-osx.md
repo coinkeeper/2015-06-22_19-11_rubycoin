@@ -1,6 +1,5 @@
-Copyright (c) 2009-2012 Bitcoin Developers
-
-Copyright (c) 2014-2015 Rubycoin Developers
+Build instructions
+===================
 
 See readme-qt.rst for instructions on building Rubycoin QT, the
 graphical user interface.
