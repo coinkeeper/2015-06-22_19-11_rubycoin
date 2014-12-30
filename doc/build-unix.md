@@ -1,13 +1,6 @@
-Copyright (c) 2009-2012 Bitcoin Developers
+Build instructions
+===================
 
-Copyright (c) 2014-2015 Rubycoin Developers
-
-
-UNIX BUILD NOTES
-================
-
-To Build
---------
 ```
 $ cd src
 $ make -f makefile.unix
