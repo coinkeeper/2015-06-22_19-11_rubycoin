@@ -3,7 +3,7 @@ Build instructions
 
 ```
 $ cd src
-$ make -f makefile.unix
+$ make -f makefile.unix USE_UPNP=-
 ```
 
 See readme-qt.rst for instructions on building Rubycoin QT,
@@ -24,7 +24,7 @@ Dependency Build Instructions: Gentoo
 ```
 $ emerge -av1 --noreplace boost openssl sys-libs/db
 $ cd ${RUBYCOIN_DIR}/src
-$ make -f makefile.unix USE_UPNP=
+$ make -f makefile.unix USE_UPNP=-
 $ strip rubycoind
 ```
 
